@@ -1,0 +1,193 @@
+@media screen and (min-width: 340px) and (max-width: 540px){
+  .upper-part-block {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+
+  .upper-part-block p{
+    font-size: 25px;
+  }
+
+  .cloud-icon {
+    width: 162px;
+    height: 244px;
+  }
+  
+  .city-info__p {
+    padding: 0
+  }
+
+  .sections{
+    display: block;
+  }
+
+  .nav-bar{
+   background: transparent;
+  }
+
+  .nav-bar__weather-btn{
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+
+  .forecast{
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  
+  .nav-bar__weather-btn,
+  .nav-bar__explore-btn,
+  .nav-bar__cities-btn,
+  .nav-bar__settings-btn,
+  .activities
+  .block5,
+  .block6,
+  .block7,
+  .weatherOfTheDay-block__conditions,
+  .weatherOfTheDay-block__time{
+    display: none
+  }
+
+  .nav-bar{
+    display: none;
+  }
+  
+  .forecast,
+  .activities,
+  .weatherOfTheDay-block{
+    width: 330px;
+    margin: 10px auto;
+  }
+
+  .weatherOfTheDay-block{
+   height: 118px;
+}
+
+ .activities-blocks {
+  justify-content: space-around;
+}
+
+.activities img{
+  width: 115px;
+}
+
+  .activities-blocks__activity-3,
+  .activities-blocks__activity-4{
+    display: none;
+  }
+
+
+  .activities__activities-text{
+    font-size: 16px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 540px) and (max-width: 1200px){
+
+  .upper-part-block {
+    align-items: center;
+    padding: 0;
+  }
+
+  .sections{
+    display: block;
+  }
+
+  .center-blocks{
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .nav-bar{
+    flex-direction: row;
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .nav-bar__profile-btn {
+    margin-bottom: 0;
+  }
+
+  .nav-bar button{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+ 
+
+  .activities{
+    max-width: 500px;
+    height: 244px;
+    margin: 0 auto;
+  }
+
+  .activities-blocks{
+    justify-content: space-evenly;
+  }
+
+  .activities-blocks img{
+    width: 120px;
+  }
+
+  .forecast {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 31px;
+  }
+
+  .forecast__blocks{
+    padding-top: 55px;
+  }
+
+  .block1__degrees, 
+  .block2__degrees, 
+  .block3__degrees, 
+  .block4__degrees, 
+  .block5__degrees, 
+  .block6__degrees, 
+  .block7__degrees {
+    padding-bottom: 0;
+  }
+
+  .block7{
+    margin-top: 40px;
+  }
+  
+  .block6{
+    margin-top: 45px;
+  }
+
+  .block5{
+    margin-top: 49px;
+  }
+
+  .block4{
+    margin-top: 37px;
+  }
+
+  .block3{
+    margin-top: 40px;
+  }
+
+  .block2{
+    margin-top: 33px;
+  }
+
+  .block1{
+    margin-top: 14px;
+  }
+
+  .weatherOfTheDay-block{
+    margin: 0 auto;
+  }
+}
+
+
+
+
